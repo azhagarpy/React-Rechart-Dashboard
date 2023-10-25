@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p>Azhagar</p>
-      <p>& copy Azhagar Dashboard</p>
+      <p>&copy Azhagar Dashboard</p>
     </div>
   )
 }
