@@ -1,0 +1,43 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+.topdeals {
+    .top-deals-list {
+        
+
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .top-deals-item {
+            padding: 5px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            img {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .topDeals-left {
+                display: flex;
+                align-items: center;
+                column-gap: 20px;
+            }
+
+
+            .txt {
+                display: flex;
+                flex-direction: column;
+
+                small{
+                    color:$soft-color ;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.layout{
+    background-color: $main-pg;
+    color: $main-color;
+    padding: 10px 20px;
+}
+
+
+.container{
+    display: flex;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.link{
+    color: $soft-color;
+    text-decoration: none;
+}

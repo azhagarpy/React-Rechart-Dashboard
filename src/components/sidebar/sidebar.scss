@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+
+
+.sidebar {
+    color: $main-color;
+    width: 230px;
+    border-right: 2px solid $soft-pg;
+    padding: 0px 10px;
+    @include md{
+        width: fit-content;
+    }
+
+
+    .link-section {
+        @include md{
+            display: none;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+
+
+        .title {
+            font-size: 12px;
+            font-weight: 200;
+            color: $soft-color;
+            margin: 10px 0px;
+        }
+
+        .link {
+            color: $main-color;
+            margin-left: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            &:hover {
+                background-color: $soft-pg;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+.piechart{
+    color: $main-color;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .piechart-box{
+        height: 70%;
+        width: 100%;
+    }
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+
+        div{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    .color-box{
+        height: 10px;
+        width: 10px;
+        border-radius: 2px;
+    }
+}
+}
