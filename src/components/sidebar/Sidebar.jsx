@@ -17,7 +17,7 @@ const Sidebar = () => {
             </p>
             {e.listItems.map(j => {
               return (
-                <Link to="/" className='link' key={j.id}>
+                <Link to={j.url} className='link' key={j.id}>
                   {j.icon}
                   <p>{j.title}</p>
                 </Link>
